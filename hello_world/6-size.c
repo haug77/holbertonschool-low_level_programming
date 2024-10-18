@@ -3,7 +3,7 @@
 /**
  * main - Punto de entrada del programa
  *
- * Funcion - Imprimir el tama√o de varios tipos de datos
+ * Funcion - Imprimir el size de varios tipos de datos
  *
  * Return: 0 si se ejecuta correctamente
  */
