@@ -10,13 +10,13 @@
 
 int main(void)
 {
-#if defined(__x86_64__) || defined(_M_X64)
+#if defined(__x86_64__)
 printf("Size of a char: 1 byte(s)\n");
 printf("Size of an int: 4 byte(s)\n");
 printf("Size of a long int: 8 byte(s)\n");
 printf("Size of a long long int: 8 byte(s)\n");
 printf("Size of a float: 4 byte(s)\n");
-#elif defined(__i386__) || defined(_M_IX86)
+#elif defined(__i386__)
 printf("Size of a char: 1 byte(s)\n");
 printf("Size of an int: 4 byte(s)\n");
 printf("Size of a long int: 4 byte(s)\n");
