@@ -10,15 +10,14 @@
 
 int main(void)
 {
-char base16;
+int baseNum;
+char baseChar;
 
-for (base16 = '0'; base16 <= '9'; base16++)
-{
-putchar(base16);
-if (base16 == 9)
-for (base16 = 'a'; base16 <= 'f'; base16++)
-putchar(base16);
-}
+for (baseNum = '0'; baseNum <= '9'; baseNum++)
+putchar(baseNum);
+
+for (baseChar = 'a'; baseChar <= 'f'; baseChar++)
+putchar(baseChar);
 
 putchar('\n');
 
