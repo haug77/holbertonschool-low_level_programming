@@ -10,10 +10,10 @@
 
 int main(void)
 {
-int digits;
+char digits;
 
-for (digits = 0; digits <= 9; digits++)
-putchar(digits + '0');
+for (digits = '0'; digits <= '9'; digits++)
+putchar(digits);
 
 putchar('\n');
 
