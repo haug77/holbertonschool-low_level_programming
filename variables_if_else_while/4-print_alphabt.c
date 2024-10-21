@@ -3,7 +3,7 @@
 /**
  * main - Punto de entrada del programa
  *
- * Funcion - Imprimir el abecedario lowercase y uppercase
+ * Funcion - Imprimir el abecedario sin 'e' ni 'q'
  *
  * Return: 0 si se ejecuta correctamente
  */
