@@ -10,13 +10,13 @@
 
 int main(void)
 {
-char *str = "_putchar\n";
+char *txt = "_putchar\n";
 int i = 0;
 
 /* recorrer la variable y pasar de caracter hasta llegar a \0 */
-while (str[i] != '\0')
+while (txt[i] != '\0')
 {
-_putchar(str[i]);
+_putchar(txt[i]);
 i++;
 }
 
