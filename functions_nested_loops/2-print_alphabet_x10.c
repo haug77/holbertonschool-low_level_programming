@@ -15,9 +15,8 @@ for (line = 0; line <= 10; line++)
 for (abc = 'a'; abc <= 'z'; abc++)
 {
 _putchar(abc);
-_putchar('\n');
 }
-
+_putchar('\n');
 }
 
 }
