@@ -8,12 +8,12 @@
 
 void print_alphabet(void)
 {
-int abc = 'a';
+int abc;
+int _putchar(char abc);
 
-while (abc <= 'z')
+for (abc = 'a'; abc <= 'z'; abc++)
 {
 _putchar(abc);
-abc++;
 }
 
 _putchar('\n');
