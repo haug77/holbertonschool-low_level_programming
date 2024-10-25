@@ -11,7 +11,7 @@ for (t = 0; t < 9; t++)
 for (num = 0; num < 9; num++)
 {
 c = t * num;
-_putchar(c);
+_putchar(c + '0');
 }
 }
 }
