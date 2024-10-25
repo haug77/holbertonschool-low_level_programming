@@ -13,12 +13,12 @@ lastDig = n % 10;
 if (lastDig < 0)
 {
 lastDig = -lastDig;
-_putchar(lastDig);
+_putchar(lastDig + '0');
 return (lastDig);
 }
 else
 {
-_putchar(lastDig);
+_putchar(lastDig + '0');
 return (lastDig);
 }
 }
