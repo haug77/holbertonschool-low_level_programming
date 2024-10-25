@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * add - funcion para sumar dos numeros enteros
- * @a, @b - parametros, los numeros a sumar
- * Return - 0 si no hay errores
+ * add - función que suma dos números enteros y retorna el resulta
+ * @a: primer número a sumar
+ * @b: segundo número a sumar
+ * Return: la suma de a y b
  */
 int add(int a, int b)
 {
 int suma = a + b;
-printf("%d\n", suma);
-return (0);
+return (suma);
 }
