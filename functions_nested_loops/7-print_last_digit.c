@@ -7,11 +7,18 @@
  */
 int print_last_digit(int n)
 {
-int last_digit = n % 10;
+int lastDig;
+lastDig = n % 10;
 
-if (last_digit < 0)
-last_digit = -last_digit;
-
-_putchar(last_digit);
-return (last_digit);
+if (lastDig < 0)
+{
+lastDig = -lastDig;
+_putchar(lastDig);
+return (lastDig);
+}
+else
+{
+_putchar(lastDig);
+return (lastDig);
+}
 }
