@@ -5,14 +5,16 @@
  */
 void more_numbers(void)
 {
-	int i, j;
+	int i = 48;
+	int j;
 
-		for (i = 48; i <= 57; i++)
+		while (i <= 57)
 		{
+			i++;
 			_putchar(i);
-			for (j = 0; j <= 53; j++)
+			for (j = 48; j <= 53; j++)
 			{
-				j = 53 + j;
+				j = 57 + j;
 				_putchar(j);
 			}
 		}
