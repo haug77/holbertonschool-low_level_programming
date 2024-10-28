@@ -5,7 +5,7 @@
  */
 void more_numbers(void)
 {
-	int h, i, j;
+	int i, j;
 
 		for (i = 48; i <= 57; i++)
 		{
@@ -18,5 +18,4 @@ void more_numbers(void)
 			}
 		}
 		_putchar('\n');
-	}
 }
