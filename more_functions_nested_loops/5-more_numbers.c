@@ -7,8 +7,6 @@ void more_numbers(void)
 {
 	int h, i, j;
 
-	for (h = 48; h <= 57 + 49; h++)
-	{
 		for (i = 48; i <= 57; i++)
 		{
 			if (i == 57)
