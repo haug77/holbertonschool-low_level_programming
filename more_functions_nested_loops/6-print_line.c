@@ -8,14 +8,12 @@ void print_line(int n)
 {
 	int o;
 
-	for (; o <= n; o++)
+	for (o = 0; o <= n; o++)
 	{
-		if (o > 0)
+		if (n > 0)
 		{
 			_putchar(95);
-			_putchar('\n');
 		}
-		else
-			_putchar('\n');
+		_putchar('\n');
 	}
 }
