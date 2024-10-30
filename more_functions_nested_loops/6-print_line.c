@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * print_line - imprime _ una cantidad n de veces
+ * @n: cantidad de veces que se imprimira _
+ */
+void print_line(int n)
+{
+	int o;
+
+	for (; o <= n; o++)
+	{
+		if (o > 0)
+		{
+			_putchar(95);
+			_putchar('\n');
+		}
+		else
+			_putchar('\n');
+	}
+}
